@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BurgerShop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <script src="store.js" async></script>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#burg">Burgers</a></li>
+                <li><a href="#snack">Snacks</a></li>
+            </ul>
+        </nav>
+        <h1 class="burger-name">Burger Shop</h1>
+    </header>
+    <section class="container content-section">
+        <h2 class="section-header" id="Burg">Burgers</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">American Burger</span>
+                <img class="shop-item-image" src="Images/Burger 1.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$10.50</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Chicken Burger</span>
+                <img class="shop-item-image" src="Images/Burger 2.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$8.33</span>
+                    <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Hot Chili Burger</span>
+                <img class="shop-item-image" src="Images/Burger 3.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12.65</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Mushroom Burger</span>
+                <img class="shop-item-image" src="Images/Burger 4.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header" id="snack">Snacks</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">French Fries</span>
+                <img class="shop-item-image" src="Images/Fries.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$2.89</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Onion Rings</span>
+                <img class="shop-item-image" src="Images/Onion.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$4.55</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="burger-footer">Burger Shop</h3>
+            <ul class="nav footer-nav">
+                <li>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <img src="Images/twitter.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="Images/instagram.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="Images/facebook.png">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
